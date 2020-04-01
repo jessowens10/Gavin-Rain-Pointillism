@@ -65,6 +65,6 @@ function target(gridX, gridY, xPos, yPos, size, circleNum, myColor) {
   }
 }
 
-// function keyReleased() {
-//   if (key == "s" || key == "S") saveCanvas(gd.timestamp(), "png");
-// }
+function keyPressed() {
+  saveCanvas("img", "png");
+}
